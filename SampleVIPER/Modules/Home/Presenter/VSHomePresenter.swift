@@ -12,7 +12,7 @@ import UIKit
 class HomePresenter: HomePresenterProtocol {
 
    var view: HomeViewProtocol?
-   var interactor: HomenteractorInputProtocol?
+   var interactor: HomeInteractorInputProtocol?
    var router: HomeRouterProtocol?
 
 	func viewDidload() {

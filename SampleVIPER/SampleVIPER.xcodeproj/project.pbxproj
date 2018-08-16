@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90827EB92125643A002E89AA /* VSHomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EAF2125643A002E89AA /* VSHomeContract.swift */; };
-		90827EBA2125643A002E89AA /* VSHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB12125643A002E89AA /* VSHomeInteractor.swift */; };
-		90827EBB2125643A002E89AA /* VSHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB32125643A002E89AA /* VSHomePresenter.swift */; };
-		90827EBC2125643A002E89AA /* VSHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB52125643A002E89AA /* VSHomeRouter.swift */; };
-		90827EBD2125643A002E89AA /* VSHomeView+Assemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB72125643A002E89AA /* VSHomeView+Assemble.swift */; };
-		90827EBE2125643A002E89AA /* VSHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB82125643A002E89AA /* VSHomeView.swift */; };
+		90827ED121256515002E89AA /* VSHomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EC721256514002E89AA /* VSHomeContract.swift */; };
+		90827ED221256515002E89AA /* VSHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EC921256514002E89AA /* VSHomeInteractor.swift */; };
+		90827ED321256515002E89AA /* VSHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827ECB21256514002E89AA /* VSHomePresenter.swift */; };
+		90827ED421256515002E89AA /* VSHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827ECD21256515002E89AA /* VSHomeRouter.swift */; };
+		90827ED521256515002E89AA /* VSHomeView+Assemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827ECF21256515002E89AA /* VSHomeView+Assemble.swift */; };
+		90827ED621256515002E89AA /* VSHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827ED021256515002E89AA /* VSHomeView.swift */; };
 		90B9FB16212536AF009C0D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9FB15212536AF009C0D88 /* AppDelegate.swift */; };
 		90B9FB18212536AF009C0D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9FB17212536AF009C0D88 /* ViewController.swift */; };
 		90B9FB1B212536AF009C0D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B9FB19212536AF009C0D88 /* Main.storyboard */; };
@@ -21,12 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90827EAF2125643A002E89AA /* VSHomeContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeContract.swift; sourceTree = "<group>"; };
-		90827EB12125643A002E89AA /* VSHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeInteractor.swift; sourceTree = "<group>"; };
-		90827EB32125643A002E89AA /* VSHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomePresenter.swift; sourceTree = "<group>"; };
-		90827EB52125643A002E89AA /* VSHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeRouter.swift; sourceTree = "<group>"; };
-		90827EB72125643A002E89AA /* VSHomeView+Assemble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VSHomeView+Assemble.swift"; sourceTree = "<group>"; };
-		90827EB82125643A002E89AA /* VSHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeView.swift; sourceTree = "<group>"; };
+		90827EC721256514002E89AA /* VSHomeContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeContract.swift; sourceTree = "<group>"; };
+		90827EC921256514002E89AA /* VSHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeInteractor.swift; sourceTree = "<group>"; };
+		90827ECB21256514002E89AA /* VSHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomePresenter.swift; sourceTree = "<group>"; };
+		90827ECD21256515002E89AA /* VSHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeRouter.swift; sourceTree = "<group>"; };
+		90827ECF21256515002E89AA /* VSHomeView+Assemble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VSHomeView+Assemble.swift"; sourceTree = "<group>"; };
+		90827ED021256515002E89AA /* VSHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeView.swift; sourceTree = "<group>"; };
 		90B9FB12212536AF009C0D88 /* SampleVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B9FB15212536AF009C0D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B9FB17212536AF009C0D88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,56 +47,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90827EAD2125643A002E89AA /* Home */ = {
+		90827EC521256514002E89AA /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				90827EAE2125643A002E89AA /* Contract */,
-				90827EB02125643A002E89AA /* Interactor */,
-				90827EB22125643A002E89AA /* Presenter */,
-				90827EB42125643A002E89AA /* Router */,
-				90827EB62125643A002E89AA /* View */,
+				90827EC621256514002E89AA /* Contract */,
+				90827EC821256514002E89AA /* Interactor */,
+				90827ECA21256514002E89AA /* Presenter */,
+				90827ECC21256514002E89AA /* Router */,
+				90827ECE21256515002E89AA /* View */,
 			);
 			name = Home;
 			path = Modules/Home;
 			sourceTree = SOURCE_ROOT;
 		};
-		90827EAE2125643A002E89AA /* Contract */ = {
+		90827EC621256514002E89AA /* Contract */ = {
 			isa = PBXGroup;
 			children = (
-				90827EAF2125643A002E89AA /* VSHomeContract.swift */,
+				90827EC721256514002E89AA /* VSHomeContract.swift */,
 			);
 			path = Contract;
 			sourceTree = "<group>";
 		};
-		90827EB02125643A002E89AA /* Interactor */ = {
+		90827EC821256514002E89AA /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				90827EB12125643A002E89AA /* VSHomeInteractor.swift */,
+				90827EC921256514002E89AA /* VSHomeInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
 		};
-		90827EB22125643A002E89AA /* Presenter */ = {
+		90827ECA21256514002E89AA /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				90827EB32125643A002E89AA /* VSHomePresenter.swift */,
+				90827ECB21256514002E89AA /* VSHomePresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
 		};
-		90827EB42125643A002E89AA /* Router */ = {
+		90827ECC21256514002E89AA /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				90827EB52125643A002E89AA /* VSHomeRouter.swift */,
+				90827ECD21256515002E89AA /* VSHomeRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
 		};
-		90827EB62125643A002E89AA /* View */ = {
+		90827ECE21256515002E89AA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				90827EB72125643A002E89AA /* VSHomeView+Assemble.swift */,
-				90827EB82125643A002E89AA /* VSHomeView.swift */,
+				90827ECF21256515002E89AA /* VSHomeView+Assemble.swift */,
+				90827ED021256515002E89AA /* VSHomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 		90B9FB14212536AF009C0D88 /* SampleVIPER */ = {
 			isa = PBXGroup;
 			children = (
-				90827EAD2125643A002E89AA /* Home */,
+				90827EC521256514002E89AA /* Home */,
 				90B9FB15212536AF009C0D88 /* AppDelegate.swift */,
 				90B9FB17212536AF009C0D88 /* ViewController.swift */,
 				90B9FB19212536AF009C0D88 /* Main.storyboard */,
@@ -203,14 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90827EBC2125643A002E89AA /* VSHomeRouter.swift in Sources */,
+				90827ED421256515002E89AA /* VSHomeRouter.swift in Sources */,
 				90B9FB18212536AF009C0D88 /* ViewController.swift in Sources */,
-				90827EBE2125643A002E89AA /* VSHomeView.swift in Sources */,
+				90827ED621256515002E89AA /* VSHomeView.swift in Sources */,
 				90B9FB16212536AF009C0D88 /* AppDelegate.swift in Sources */,
-				90827EBA2125643A002E89AA /* VSHomeInteractor.swift in Sources */,
-				90827EB92125643A002E89AA /* VSHomeContract.swift in Sources */,
-				90827EBB2125643A002E89AA /* VSHomePresenter.swift in Sources */,
-				90827EBD2125643A002E89AA /* VSHomeView+Assemble.swift in Sources */,
+				90827ED221256515002E89AA /* VSHomeInteractor.swift in Sources */,
+				90827ED121256515002E89AA /* VSHomeContract.swift in Sources */,
+				90827ED321256515002E89AA /* VSHomePresenter.swift in Sources */,
+				90827ED521256515002E89AA /* VSHomeView+Assemble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
