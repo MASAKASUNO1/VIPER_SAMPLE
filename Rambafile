@@ -1,0 +1,24 @@
+### Headers settings
+company: Masanari Takigawa
+
+### Xcode project settings
+project_name: VIPER_SAMPLE
+xcodeproj_path: /Users/masanari/team/VIPER_SAMPLE/SampleVIPER/SampleVIPER.xcodeproj
+prefix: VS
+
+### Code generation settings section
+# The main project target name
+project_target: SampleVIPER
+
+# The file path for new modules
+project_file_path: /SampleVIPER/Modules
+
+# The Xcode group path to new modules
+project_group_path: /SampleVIPER/Modules
+
+### Templates
+templates:
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
+- {name: vipermsd, local: 'vipermsd'}

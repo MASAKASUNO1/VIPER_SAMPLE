@@ -1,0 +1,33 @@
+# Template information section
+name: myviper
+summary: 
+author: Masanari Takigawa
+version: 1.0.0
+license: 
+
+# The declarations for code files
+
+code_files:
+
+# Contract
+- {name: Contract/Contract.swift, path: Code/Contract/contract.swift.liquid}
+
+# View
+- {name: View/View.swift, path: Code/View/view.swift.liquid}
+- {name: View/View+Assemble.swift, path: Code/View/view2.swift.liquid}
+
+# Presenter
+- {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
+
+# Router
+- {name: Router/Router.swift, path: Code/Router/router.swift.liquid}
+
+# Interactor
+- {name: Interactor/Interactor.swift, path: Code/Interactor/interactor.swift.liquid}
+
+# The declarations for test files
+test_files:
+- {name: Service/ServiceTests.m, path: Tests/Service/service_tests.m.liquid}
+
+# Template dependencies
+dependencies:

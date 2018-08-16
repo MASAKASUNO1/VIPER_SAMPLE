@@ -1,0 +1,36 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+class {{ module_info.name }}View: UIViewController {
+
+   var presenter: {{ module_info.name }}PresenterProtocol?
+
+   override func viewDidLoad() {
+      super.viewDidLoad()
+      self.presenter?.viewDidload()
+   }
+   
+   override func loadView() {
+      super.loadView()
+      self.assemble()
+   }
+
+}
+
+extension {{ module_info.name }}View : {{ module_info.name }}ViewProtocol{
+
+   func showError() {
+
+   }
+   func showLoading() {
+
+   }
+}

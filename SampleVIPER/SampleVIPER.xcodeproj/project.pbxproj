@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90827EB92125643A002E89AA /* VSHomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EAF2125643A002E89AA /* VSHomeContract.swift */; };
+		90827EBA2125643A002E89AA /* VSHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB12125643A002E89AA /* VSHomeInteractor.swift */; };
+		90827EBB2125643A002E89AA /* VSHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB32125643A002E89AA /* VSHomePresenter.swift */; };
+		90827EBC2125643A002E89AA /* VSHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB52125643A002E89AA /* VSHomeRouter.swift */; };
+		90827EBD2125643A002E89AA /* VSHomeView+Assemble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB72125643A002E89AA /* VSHomeView+Assemble.swift */; };
+		90827EBE2125643A002E89AA /* VSHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90827EB82125643A002E89AA /* VSHomeView.swift */; };
 		90B9FB16212536AF009C0D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9FB15212536AF009C0D88 /* AppDelegate.swift */; };
 		90B9FB18212536AF009C0D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B9FB17212536AF009C0D88 /* ViewController.swift */; };
 		90B9FB1B212536AF009C0D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B9FB19212536AF009C0D88 /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90827EAF2125643A002E89AA /* VSHomeContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeContract.swift; sourceTree = "<group>"; };
+		90827EB12125643A002E89AA /* VSHomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeInteractor.swift; sourceTree = "<group>"; };
+		90827EB32125643A002E89AA /* VSHomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomePresenter.swift; sourceTree = "<group>"; };
+		90827EB52125643A002E89AA /* VSHomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeRouter.swift; sourceTree = "<group>"; };
+		90827EB72125643A002E89AA /* VSHomeView+Assemble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VSHomeView+Assemble.swift"; sourceTree = "<group>"; };
+		90827EB82125643A002E89AA /* VSHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VSHomeView.swift; sourceTree = "<group>"; };
 		90B9FB12212536AF009C0D88 /* SampleVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B9FB15212536AF009C0D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90B9FB17212536AF009C0D88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +47,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90827EAD2125643A002E89AA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				90827EAE2125643A002E89AA /* Contract */,
+				90827EB02125643A002E89AA /* Interactor */,
+				90827EB22125643A002E89AA /* Presenter */,
+				90827EB42125643A002E89AA /* Router */,
+				90827EB62125643A002E89AA /* View */,
+			);
+			name = Home;
+			path = Modules/Home;
+			sourceTree = SOURCE_ROOT;
+		};
+		90827EAE2125643A002E89AA /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				90827EAF2125643A002E89AA /* VSHomeContract.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		90827EB02125643A002E89AA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				90827EB12125643A002E89AA /* VSHomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		90827EB22125643A002E89AA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				90827EB32125643A002E89AA /* VSHomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		90827EB42125643A002E89AA /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				90827EB52125643A002E89AA /* VSHomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		90827EB62125643A002E89AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90827EB72125643A002E89AA /* VSHomeView+Assemble.swift */,
+				90827EB82125643A002E89AA /* VSHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		90B9FB09212536AE009C0D88 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +120,7 @@
 		90B9FB14212536AF009C0D88 /* SampleVIPER */ = {
 			isa = PBXGroup;
 			children = (
+				90827EAD2125643A002E89AA /* Home */,
 				90B9FB15212536AF009C0D88 /* AppDelegate.swift */,
 				90B9FB17212536AF009C0D88 /* ViewController.swift */,
 				90B9FB19212536AF009C0D88 /* Main.storyboard */,
@@ -96,11 +163,12 @@
 				TargetAttributes = {
 					90B9FB11212536AF009C0D88 = {
 						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 90B9FB0D212536AE009C0D88 /* Build configuration list for PBXProject "SampleVIPER" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,8 +203,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90827EBC2125643A002E89AA /* VSHomeRouter.swift in Sources */,
 				90B9FB18212536AF009C0D88 /* ViewController.swift in Sources */,
+				90827EBE2125643A002E89AA /* VSHomeView.swift in Sources */,
 				90B9FB16212536AF009C0D88 /* AppDelegate.swift in Sources */,
+				90827EBA2125643A002E89AA /* VSHomeInteractor.swift in Sources */,
+				90827EB92125643A002E89AA /* VSHomeContract.swift in Sources */,
+				90827EBB2125643A002E89AA /* VSHomePresenter.swift in Sources */,
+				90827EBD2125643A002E89AA /* VSHomeView+Assemble.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +344,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -281,12 +354,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR8FZZ3M4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SampleVIPER/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = masakasu.SampleVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -299,12 +369,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AR8FZZ3M4S;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SampleVIPER/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = masakasu.SampleVIPER;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

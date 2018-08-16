@@ -1,0 +1,36 @@
+//
+//  {{ module_info.name }}{{ module_info.file_name }}
+//  {{ module_info.project_name }}
+//
+//  Created by {{ developer.name }} on {{ date }}.
+//  Copyright © {{ year }} {{ developer.company }}. All rights reserved.
+//
+import Foundation
+import UIKit
+
+protocol {{ module_info.name }}RouterProtocol : class {
+   static func create{{ module_info.name }}Module() -> UIViewController
+}
+
+protocol {{ module_info.name }}ViewProtocol : class {
+   var presenter: {{ module_info.name }}PresenterProtocol? { get set}
+   func showError()
+   func showLoading()
+}
+
+protocol {{ module_info.name }}PresenterProtocol : class {
+
+   var view: {{ module_info.name }}ViewProtocol? { get set }
+   var interactor: {{ module_info.name }}InteractorInputProtocol? { get set }
+   var router: {{ module_info.name }}RouterProtocol? { get set }
+
+   func viewDidload()
+}
+
+
+protocol {{ module_info.name }}InteractorInputProtocol: class {
+   var presenter: {{ module_info.name }}InteractorOutputProtocol? {  get set }
+}
+
+protocol {{ module_info.name }}InteractorOutputProtocol: class {
+}
