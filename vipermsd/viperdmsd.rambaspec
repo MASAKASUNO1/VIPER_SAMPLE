@@ -1,9 +1,9 @@
 # Template information section
-name: myviper
-summary: 
-author: Masanari Takigawa
+name: viperdefault
+summary: viper default style
+author: masanari takigawa
 version: 1.0.0
-license: 
+license: MIT
 
 # The declarations for code files
 

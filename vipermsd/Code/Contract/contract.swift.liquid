@@ -16,6 +16,7 @@ protocol {{ module_info.name }}ViewProtocol : class {
    var presenter: {{ module_info.name }}PresenterProtocol? { get set}
    func showError()
    func showLoading()
+   func showSuccess()
 }
 
 protocol {{ module_info.name }}PresenterProtocol : class {
